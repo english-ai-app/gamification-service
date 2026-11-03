@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: gamification-service
+
+  profiles:
+    default: dev
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: none
+    open-in-view: false
+
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
+    org.hibernate.orm.jdbc.bind: TRACE

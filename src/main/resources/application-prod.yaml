@@ -1,0 +1,9 @@
+server:
+  port: ${SERVER_PORT:9009}
+
+spring:
+  datasource:
+    url: ${GAMIFICATION_DB_URL}
+    username: ${GAMIFICATION_DB_USERNAME}
+    password: ${GAMIFICATION_DB_PASSWORD}
+    driver-class-name: com.mysql.cj.jdbc.Driver
